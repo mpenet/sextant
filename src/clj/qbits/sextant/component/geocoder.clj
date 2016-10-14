@@ -15,6 +15,3 @@
     (assoc this :geocoder (geocoder/load)))
   (stop [this]
     (assoc this :geocoder nil)))
-
-;; (def x (com/start (map->LocationFinder {})))
-;; (sextant/find-location x "paris")

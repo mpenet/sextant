@@ -15,8 +15,3 @@
     (assoc this :reverse-geocoder (reverse-geocoder/load)))
   (stop [this]
     (assoc this :reverse-geocoder nil)))
-
-(def x (com/start (map->LocationFinder {})))
-;; (sextant/find-location x [0 1])
-
-(prn (qbits.sextant/find-location x [48.85341 2.3488]))
