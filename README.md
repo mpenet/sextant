@@ -54,6 +54,4 @@ just call `qbits.sextant/find-location` on it once it's `start`ed.
 
 add this to your `project.clj`
 
-``` clojure
-[cc.qbits/sextant "1.0.0"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/cc.qbits/sextant.svg)](https://clojars.org/cc.qbits/sextant)
