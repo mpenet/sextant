@@ -1,4 +1,4 @@
-(defproject cc.qbits/sextant "1.0.0"
+(defproject cc.qbits/sextant "1.0.1"
   :description "Decode locations from things"
   :dependencies [[org.clojure/clojure "1.9.0-alpha13"]
                  [com.stuartsierra/component "0.3.1"]
