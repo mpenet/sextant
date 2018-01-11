@@ -6,4 +6,4 @@
   :source-paths ["src/clj"]
   :java-source-paths ["src/java"]
   :global-vars {*warn-on-reflection* true}
-  :profiles {:provided {:dependencies [[org.slf4j/slf4j-log4j12 "1.7.25"]]}})
+  :profiles {:dev {:dependencies [[org.slf4j/slf4j-log4j12 "1.7.25"]]}})
