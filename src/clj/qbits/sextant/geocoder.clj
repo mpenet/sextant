@@ -27,3 +27,7 @@
   DefaultLocationParser
   (find-location [this text]
     (some-> this (.parseText text) jloc->loc)))
+
+(defn country-code->location
+  [^DefaultLocationParser this code]
+  (some-> this (.getCountryByCode code) jloc->loc))
