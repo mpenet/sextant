@@ -38,6 +38,10 @@ public class DefaultLocationParser implements LocationParser {
         this.setLocationDao(locationDao);
     }
 
+    public Location getCountryByCode(String countryCode) {
+        return locationDao.getCountryByCode(countryCode);
+    }
+
     @Override
     public Location parseText(String text) {
         if (text == null || text.isEmpty()) {
