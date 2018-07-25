@@ -1,5 +1,8 @@
 # Sextant
 
+[![cljdoc badge](https://cljdoc.xyz/badge/cc.qbits/sextant)](https://cljdoc.xyz/d/cc.qbits/sextant/CURRENT)
+
+
 Offline location geocoder/reverse geocoder from GeoName datasets
 
 Shamelessly using code from
