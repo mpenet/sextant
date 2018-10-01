@@ -3,7 +3,6 @@
   (:require [qbits.sextant :as sextant])
   (:import
    (qbits.sextant Location)
-   (com.taykey.twitterlocationparser.dto.Location)
    (com.taykey.twitterlocationparser DefaultLocationParser)
    (com.taykey.twitterlocationparser.dto LocationType)))
 
